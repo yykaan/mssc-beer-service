@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/yykaan/mssc-beer-service.svg?style=svg)](https://app.circleci.com/pipelines/github/yykaan/mssc-beer-service)
 # Getting Started
 
 ### Reference Documentation
