@@ -1,0 +1,13 @@
+com/partnus/msscbeerservice/web/mappers/BeerMapperImpl.class
+com/partnus/msscbeerservice/web/model/BeerDto.class
+com/partnus/msscbeerservice/web/controller/BeerController.class
+com/partnus/msscbeerservice/web/mappers/BeerMapper.class
+com/partnus/msscbeerservice/web/model/BeerStyleEnum.class
+com/partnus/msscbeerservice/web/model/BeerPagedList.class
+com/partnus/msscbeerservice/repositories/BeerRepository.class
+com/partnus/msscbeerservice/MsscBeerServiceApplication.class
+com/partnus/msscbeerservice/domain/Beer$BeerBuilder.class
+com/partnus/msscbeerservice/web/mappers/DateMapper.class
+com/partnus/msscbeerservice/web/model/BeerDto$BeerDtoBuilder.class
+com/partnus/msscbeerservice/domain/Beer.class
+com/partnus/msscbeerservice/bootstrap/BeerLoader.class

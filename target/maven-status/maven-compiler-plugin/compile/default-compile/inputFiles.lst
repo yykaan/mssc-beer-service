@@ -1,0 +1,10 @@
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/repositories/BeerRepository.java
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/web/model/BeerPagedList.java
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/web/model/BeerDto.java
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/web/mappers/BeerMapper.java
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/web/controller/BeerController.java
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/domain/Beer.java
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/bootstrap/BeerLoader.java
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/MsscBeerServiceApplication.java
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/web/mappers/DateMapper.java
+/home/kaan/Documents/microservis/mssc-beer-service/src/main/java/com/partnus/msscbeerservice/web/model/BeerStyleEnum.java
