@@ -13,8 +13,12 @@ import java.math.BigDecimal;
  * @created 20 / 11 / 2020 - 11:30
  * @project mssc-beer-service
  */
-@Component
+//@Component
 public class BeerLoader implements CommandLineRunner {
+
+    public static final String BEER_1_UPC = "0631234200036";
+    public static final String BEER_2_UPC = "0631234300019";
+    public static final String BEER_3_UPC = "0083783375213";
 
     private final BeerRepository beerRepository;
 
@@ -31,19 +35,28 @@ public class BeerLoader implements CommandLineRunner {
         if (beerRepository.count() == 0){
             beerRepository.save(Beer.builder()
                     .beerName("Mango Bobs")
-                    .beerStyleEnum(BeerStyleEnum.IPA)
+                    .beerStyle(BeerStyleEnum.IPA.name())
                     .quantityToBrew(200)
                     .minOnHand(12)
-                    .upc(337010000001L)
+                    .upc(BEER_1_UPC)
                     .price(new BigDecimal("12.95"))
                     .build());
 
             beerRepository.save(Beer.builder()
                     .beerName("Galaxy Cats")
-                    .beerStyleEnum(BeerStyleEnum.PALE_ALE)
+                    .beerStyle(BeerStyleEnum.PALE_ALE.name())
                     .quantityToBrew(200)
                     .minOnHand(12)
-                    .upc(337010000002L)
+                    .upc(BEER_2_UPC)
+                    .price(new BigDecimal("11.95"))
+                    .build());
+
+            beerRepository.save(Beer.builder()
+                    .beerName("No Hammers On The Bar")
+                    .beerStyle(BeerStyleEnum.ALE.name())
+                    .quantityToBrew(200)
+                    .minOnHand(12)
+                    .upc(BEER_3_UPC)
                     .price(new BigDecimal("11.95"))
                     .build());
         }
